@@ -109,5 +109,5 @@ summarizedData <- aggregate(partial[, names(partial) != c("ActivityId", "Subject
 summarizedData <- merge(summarizedData, activityType, by="ActivityId", all.x=TRUE);
 
 # Finally, we export the new data set
-write.table(summarizedData, "./tidyData.txt", row.names = TRUE, sep = "\t");
+write.table(summarizedData, "./summarizedData.txt", row.names = FALSE, sep = ",");
 
