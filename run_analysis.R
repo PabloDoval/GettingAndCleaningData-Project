@@ -107,7 +107,9 @@ colnames(combinedData) <- colNames
 partial <- combinedData[, names(combinedData) != "ActivityType"];
 summarizedData <- aggregate(partial[, names(partial) != c("ActivityId", "SubjectId")], by = list( ActivityId = partial$ActivityId, SubjectId <- partial$SubjectId), mean);
 summarizedData <- merge(summarizedData, activityType, by="ActivityId", all.x=TRUE);
+colnames(summarizedData)[2] <- "SubjectId"
 
 # Finally, we export the new data set
+
 write.table(summarizedData, "./summarizedData.txt", row.names = FALSE, sep = ",");
 
