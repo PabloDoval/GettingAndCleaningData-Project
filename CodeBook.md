@@ -1,8 +1,11 @@
-# Introduction
+# Code Book
+
+  
+### Introduction
 
 This document serves as code book for the output generated in the Getting and Cleaning Data course's project, and describes both the `run_analysis.R` script process and the variables on the output file.
 
-# Process
+### Process
 
 The process to generate the desired output was described in as a series of transformation steps on the project's requirements, which perform the following operations:
 
@@ -12,7 +15,7 @@ The process to generate the desired output was described in as a series of trans
 4. The resulting dataset column names are amended so they have more human-readable names, via a set of RegEx substitutions.
 5. A new dataset, containing only the average measures for each subject and activity, is generated and stored into this repository as `summarizedData.txt`
 
-# Script Usage
+### Script Usage
 
 In order to use the provided script (`run_Analysis.R`), the following prerequisites must be made:
 
@@ -23,7 +26,7 @@ In order to use the provided script (`run_Analysis.R`), the following prerequisi
 
 Once all those prerequisites are met, the script can be run in one go, and it will generate an output with the name `summarizedData.txt` in R's working directory, containing the activity data in form of aggregated means for each subject and each activity type.
 
-# Variables
+### Variables
 
 The following is a list of all the variables on the `summarizedData.txt` file:
 
@@ -50,18 +53,58 @@ The following is a list of all the variables on the `summarizedData.txt` file:
 
 * **FreqBodyAcceleration-bandsEnergy-1,24:**  
 
-   *Numeric* value that specifies 
+   *Numeric* value that specifies the mean of the body acceleration after the FFT process for energy bands between 1 and 24, in m/s.
 
-* **FreqBodyAcceleration-bandsEnergy-25,48:**  
+
+* **FreqBodyAcceleration-bandsEnergy-25,48:** 
+
+   *Numeric* value that specifies the mean of the body acceleration after the FFT process for energy bands between 25 and 48, in m/s.
+
+ 
 * **FreqBodyAcceleration-std-X:**  
+
+   *Numeric* value that specifies the mean of the body Standard Deviation of the acceleration on the X axis after the FFT process, in m/s.
+
+
 * **FreqBodyAccelerationJerk-bandsEnergy-1,24:**
+
+   *Numeric* value that specifies the mean of the body jerk acceleration after the FFT process for energy bands between 1 and 24, in m/s.
+
+
 * **FreqBodyAccelerationJerk-bandsEnergy-25,48:**
+
+   *Numeric* value that specifies the mean of the body jerk acceleration after the FFT process for energy bands between 25 and 48, in m/s.
+
+
 * **FreqBodyAccelerationJerk-std-X:**
+ 
+   *Numeric* value that specifies the mean of the Standard Deviation of the jerk acceleration on the X axis after the FFT process, in m/s.
+
+
 * **FreqBodyAccelerationJerkMagnitude-Kurtosis:**
+
+   *Numeric* value that specifies the mean of the kurtosis of the body jerk acceleration total computed magnitude. The magnitude was calculated using the Euclidean form.
+
+
 * **FreqBodyAccelerationJerkMagnitude-Skewness:**
+
+   *Numeric* value that specifies the mean of the skewness of the body jerk acceleration total computed magnitude. The magnitude was calculated using the Euclidean form.
+
 * **FreqBodyAccelerationJerkMean-X:**
+
+   *Numeric* value that specifies the mean of the body jerk acceleration after the FFT process for the X axis, in m/s.
+
+
 * **FreqBodyAccelerationJerkMean-Y:**
+
+   *Numeric* value that specifies the mean of the body jerk acceleration after the FFT process for the Y axis, in m/s.
+
+
 * **FreqBodyAccelerationJerkMean-Z:**
+
+   *Numeric* value that specifies the mean of the body jerk acceleration after the FFT process for the Z axis, in m/s.
+
+
 * **FreqBodyAccelerationMag-Kurtosis:**
 * **FreqBodyAccelerationMag-Skewness:**
 * **FreqBodyAccelerationMean-X:**
