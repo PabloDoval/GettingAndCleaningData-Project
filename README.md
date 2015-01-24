@@ -25,6 +25,19 @@ Create an R script called run_analysis.R that does the following:
 
 From the data set in step 4, create a second, independent tidy data set with the average of each variable for each activity and each subject.
 
+### Script Usage
+
+In order to use the provided script (`run_Analysis.R`), the following prerequisites must be made:
+
+* R version 3.1.2 must be used (lower versions might work, but have not been tested)
+* Package "Dplyr" must be installed on the R machine.
+* The UCI HAR data set must have been downloaded, since the script does not automate the download process (due to the big size of this dataset).
+* R working derectory must be set pointed to the directory where the UCI HAR data has been uncompressed.
+
+Once all those prerequisites are met, the script can be run in one go, and it will generate an output with the name `summarizedData.txt` in R's working directory, containing the activity data in form of aggregated means for each subject and each activity type.
+
+
+
 ### Code Book
 There is an associated code book where detailed information about all variables, as well as the processes that were followed to turn the original data into a clean and tidy data set, can be found. This code book is in the CodeBook.md file.
 
