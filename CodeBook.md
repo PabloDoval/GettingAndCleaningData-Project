@@ -106,18 +106,70 @@ The following is a list of all the variables on the `summarizedData.txt` file:
 
 
 * **FreqBodyAccelerationMag-Kurtosis:**
+
+   *Numeric* value that specifies the mean of the kurtosis of the total body acceleration total computed magnitude. The magnitude was calculated using the Euclidean form.
+
+
 * **FreqBodyAccelerationMag-Skewness:**
+
+   *Numeric* value that specifies the mean of the skewness of the total body acceleration total computed magnitude. The magnitude was calculated using the Euclidean form.
+
+
 * **FreqBodyAccelerationMean-X:**
+
+   *Numeric* value that specifies the mean of the total body acceleration after the FFT process for the X axis, in m/s.
+
+
 * **FreqBodyAccelerationMean-Y:**
+
+   *Numeric* value that specifies the mean of the total body acceleration after the FFT process for the Y axis, in m/s.
+
+
 * **FreqBodyAccelerationMean-Z:**
+
+   *Numeric* value that specifies the mean of the total body acceleration after the FFT process for the Z axis, in m/s.
+
+
 * **FreqBodyGyro-bandsEnergy-1,24:**
+
+   *Numeric* value that specifies the mean of the body gyroscope readings after the FFT process for energy bands between 1 and 24, in m/s.
+
+
 * **FreqBodyGyro-bandsEnergy-25,48:**
+
+   *Numeric* value that specifies the mean of the body gyroscope readings after the FFT process for energy bands between 25 and 48, in m/s.
+
+
 * **FreqBodyGyro-std-X:**
+
+   *Numeric* value that specifies the mean of the Standard Deviation of the gyrscope readings on the X axis after the FFT process, in m/s.
+
+
 * **FreqBodyGyroMagnitude-Kurtosis:**
+
+   *Numeric* value that specifies the mean of the kurtosis of the total body gyroscope readings total computed magnitude. The magnitude was calculated using the Euclidean form.
+
+
 * **FreqBodyGyroMagnitude-Skewness:**
+
+   *Numeric* value that specifies the mean of the skewness of the total body gyroscope readings total computed magnitude. The magnitude was calculated using the Euclidean form.
+
+
 * **FreqBodyGyroMean-X:**
+
+   *Numeric* value that specifies the mean of the total body Gyroscope readings after the FFT process for the X axis, in m/s.
+
+
 * **FreqBodyGyroMean-Y:**
+
+   *Numeric* value that specifies the mean of the total body Gyroscope readings after the FFT process for the Y axis, in m/s.
+
+
 * **FreqBodyGyroMean-Z:**
+
+   *Numeric* value that specifies the mean of the total body Gyroscope readings after the FFT process for the Z axis, in m/s.
+
+
 * **SubjectId:**  
 
    *Integer* value that serves as Foreign Key to relate the row (observation) to an specific Subject.
@@ -163,5 +215,3 @@ The following is a list of all the variables on the `summarizedData.txt` file:
 * **TimeGravityAccelerationMean-X:**
 * **TimeGravityAccelerationMean-Y:**
 * **TimeGravityAccelerationMean-Z:**
-
-
