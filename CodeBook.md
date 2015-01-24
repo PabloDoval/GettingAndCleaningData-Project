@@ -12,6 +12,17 @@ The process to generate the desired output was descibed in as a series of transf
 4. The resulting dataset column names are amended so they have more human-readable names, via a set of RegEx substitutions.
 5. A new dataset, containing only the average measures for each subject and activity, is generated and stored into this repository as `summarizedData.txt`
 
+# Script Usage
+
+In order to use the provided script (`run_Analysis.R`), the following prerequisites must be made:
+
+* R version 3.1.2 must be used (lower versions might work, but have not been tested)
+* Package "Dplyr" must be installed on the R machine.
+* The UCI HAR data set must have been downloaded, since the script does not automate the download process (due to the big size of this dataset).
+* R working derectory must be set pointed to the directory where the UCI HAR data has been uncompressed.
+
+Once all those prerequisites are met, the script can be run in one go, and it will generate an output with the name `summarizedData.txt` in R's working directory, containing the activity data in form of aggregated means for each subject and each activity type.
+
 # Variables
 
 The following is a list of all the variables on the `summarizedData.txt` file:
