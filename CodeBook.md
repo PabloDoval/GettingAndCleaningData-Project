@@ -16,10 +16,11 @@ The process to generate the desired output was descibed in as a series of transf
 
 The following is a list of all the variables on the `summarizedData.txt` file:
 
-* ActivityId:
-  Integer value that serves as Foreing Key to relate the row (observation) to an specific Activity row on the activities file. This is kept as reference only, since each row of this file is denormalized to have an ActivityType textual category (factor) as well.   
-
-* ActivityType:
+* *ActivityId:*  
+   Integer value that serves as Foreing Key to relate the row (observation) to an specific Activity row on the activities file.  
+   This is kept as reference only, since each row of this file is denormalized to have an ActivityType textual category (factor) as well.  
+* *ActivityType:*  
+  blabla
 * FreqBodyAcceleration-bandsEnergy-1,24
 * FreqBodyAcceleration-bandsEnergy-25,48
 * FreqBodyAcceleration-std-X
