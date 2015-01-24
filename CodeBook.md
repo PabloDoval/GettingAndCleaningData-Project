@@ -90,6 +90,7 @@ The following is a list of all the variables on the `summarizedData.txt` file:
 
    *Numeric* value that specifies the mean of the skewness of the body jerk acceleration total computed magnitude. The magnitude was calculated using the Euclidean form.
 
+
 * **FreqBodyAccelerationJerkMean-X:**
 
    *Numeric* value that specifies the mean of the body jerk acceleration after the FFT process for the X axis, in m/s.
@@ -176,13 +177,45 @@ The following is a list of all the variables on the `summarizedData.txt` file:
 
 
 * **TimeBodyAcceleration-correlation-X,Z:**
+
+   *Numeric* value that shows the mean of the correlation between axis X and Z on the Body acceleration measurement.
+
+
 * **TimeBodyAcceleration-correlation-Y,Z:**
+
+   *Numeric* value that shows the mean of the correlation between axis Y and Z on the Body acceleration measurement.
+
+
 * **TimeBodyAcceleration-std-X:**
+
+   *Numeric* value that shows the mean of standard deviation of the Body acceleration measurement on the X axis.
+
+
 * **TimeBodyAccelerationJerk-correlation-X,Z:**
+
+   *Numeric* value that shows the mean of the correlation between axis X and Z on the Body jerk acceleration measurement.
+
+
 * **TimeBodyAccelerationJerk-correlation-Y,Z:**
+
+   *Numeric* value that shows the mean of the correlation between axis X and Z on the Body jerk acceleration measurement.
+
+
 * **TimeBodyAccelerationJerk-std-X:**
+
+   *Numeric* value that shows the mean of standard deviation of the Body jerk acceleration measurement on the X axis.
+
+
 * **TimeBodyAccelerationJerkMagnitude-arCoeff3:**
+
+   *Numeric* value that shows the mean of ar Corefficient 3.
+
+
 * **TimeBodyAccelerationJerkMagnitude-arCoeff4:**
+
+   *Numeric* value that shows the mean of ar Corefficient 4.
+
+
 * **TimeBodyAccelerationJerkMean-X:**
 
    *Numeric* value that specifies the mean of the body jerk acceleration for the X axis, in m/s.
@@ -199,7 +232,15 @@ The following is a list of all the variables on the `summarizedData.txt` file:
 
 
 * **TimeBodyAccelerationMag-arCoeff3:**
+
+   *Numeric* value that shows the mean of the magnitude in Euclidean form of the ar Corefficient 3.
+
+
 * **TimeBodyAccelerationMag-arCoeff4:**
+
+   *Numeric* value that shows the mean of the magnitude in Euclidean form of the ar Corefficient 4.
+
+
 * **TimeBodyAccelerationMean-X:**
 
    *Numeric* value that specifies the mean of the total body acceleration for the X axis, in m/s.
@@ -216,13 +257,43 @@ The following is a list of all the variables on the `summarizedData.txt` file:
 
 
 * **TimeBodyGyro-correlation-X,Z:**
+
+   *Numeric* value that shows the mean of the correlation between axis X and Z on the Body gyroscopic readings measurement, in radians/s.
+
+
 * **TimeBodyGyro-correlation-Y,Z:**
+
+   *Numeric* value that shows the mean of the correlation between axis Y and Z on the Body gyroscopic readings measurement, in radians/s.
+
+
 * **TimeBodyGyro-std-X:**
+
+   *Numeric* value that specifies the mean of the Standard Deviation of the body gyroscope readings on the X axis, in m/s.
+
+
 * **TimeBodyGyroJerk-correlation-X,Z:**
+
+   *Numeric* value that shows the mean of the correlation between axis X and Z on the Body jerk gyroscopic readings measurement, in radians/s.
+
+
 * **TimeBodyGyroJerk-correlation-Y,Z:**
+
+   *Numeric* value that shows the mean of the correlation between axis Y and Z on the Body jerk gyroscopic readings measurement, in radians/s.
+
 * **TimeBodyGyroJerk-std-X:**
+
+   *Numeric* value that specifies the mean of the Standard Deviation of the body jerk gyroscope readings on the X axis, in m/s.
+
 * **TimeBodyGyroJerkMagnitude-arCoeff3:**
+
+   *Numeric* value that shows the mean of ar Corefficient 3 for the gyroscope reading.
+
+
 * **TimeBodyGyroJerkMagnitude-arCoeff4:**
+
+   *Numeric* value that shows the mean of ar Corefficient 4 for the gyroscope reading.
+
+
 * **TimeBodyGyroJerkMean-X:**
 
    *Numeric* value that specifies the mean of the total body jerk gyroscope readings for the X axis, in m/s.
@@ -239,7 +310,15 @@ The following is a list of all the variables on the `summarizedData.txt` file:
 
 
 * **TimeBodyGyroMagnitude-arCoeff3:**
+
+   *Numeric* value that shows the mean of ar Corefficient 3 of the gyroscope magnitude in Euclidean form.
+
+
 * **TimeBodyGyroMagnitude-arCoeff4:**
+
+   *Numeric* value that shows the mean of ar Corefficient 4 of the gyroscope magnitude in Euclidean form.
+
+
 * **TimeBodyGyroMean-X:**
 
    *Numeric* value that specifies the mean of the total body gyroscope readings for the X axis, in m/s.
@@ -256,10 +335,30 @@ The following is a list of all the variables on the `summarizedData.txt` file:
 
 
 * **TimeGravityAcceleration-correlation-X,Z:**
+
+   *Numeric* value that shows the mean of the correlation between axis X and Z on the Gravity acceleration measurement.
+
+
 * **TimeGravityAcceleration-correlation-Y,Z:**
+
+   *Numeric* value that shows the mean of the correlation between axis Y and Z on the Gravity acceleration measurement.
+
+
 * **TimeGravityAcceleration-std-X:**
+
+   *Numeric* value that specifies the mean of the Standard Deviation of the gravity acceleration on the X axis, in m/s.
+
+
 * **TimeGravityAccelerationMag-arCoeff3:**
+
+   *Numeric* value that shows the mean of ar Corefficient 3 of the gravity magnitude in Euclidean form.
+
+
 * **TimeGravityAccelerationMag-arCoeff4:**
+
+   *Numeric* value that shows the mean of ar Corefficient 4 of the gravity magnitude in Euclidean form.
+
+
 * **TimeGravityAccelerationMean-X:**
 
    *Numeric* value that specifies the mean of the total gravity acceleration readings for the X axis, in m/s.
@@ -268,7 +367,6 @@ The following is a list of all the variables on the `summarizedData.txt` file:
 * **TimeGravityAccelerationMean-Y:**
 
    *Numeric* value that specifies the mean of the total gravity acceleration readings for the X axis, in m/s.
-
 
 
 * **TimeGravityAccelerationMean-Z:**
