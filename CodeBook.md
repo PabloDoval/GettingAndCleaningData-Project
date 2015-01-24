@@ -184,13 +184,37 @@ The following is a list of all the variables on the `summarizedData.txt` file:
 * **TimeBodyAccelerationJerkMagnitude-arCoeff3:**
 * **TimeBodyAccelerationJerkMagnitude-arCoeff4:**
 * **TimeBodyAccelerationJerkMean-X:**
+
+   *Numeric* value that specifies the mean of the body jerk acceleration for the X axis, in m/s.
+
+
 * **TimeBodyAccelerationJerkMean-Y:**
+
+   *Numeric* value that specifies the mean of the body jerk acceleration for the Y axis, in m/s.
+
+
 * **TimeBodyAccelerationJerkMean-Z:**
+
+   *Numeric* value that specifies the mean of the body jerk acceleration for the Z axis, in m/s.
+
+
 * **TimeBodyAccelerationMag-arCoeff3:**
 * **TimeBodyAccelerationMag-arCoeff4:**
 * **TimeBodyAccelerationMean-X:**
+
+   *Numeric* value that specifies the mean of the total body acceleration for the X axis, in m/s.
+
+
 * **TimeBodyAccelerationMean-Y:**
+
+   *Numeric* value that specifies the mean of the total body acceleration for the Y axis, in m/s.
+
+
 * **TimeBodyAccelerationMean-Z:**
+
+   *Numeric* value that specifies the mean of the total body acceleration for the Z axis, in m/s.
+
+
 * **TimeBodyGyro-correlation-X,Z:**
 * **TimeBodyGyro-correlation-Y,Z:**
 * **TimeBodyGyro-std-X:**
@@ -200,18 +224,54 @@ The following is a list of all the variables on the `summarizedData.txt` file:
 * **TimeBodyGyroJerkMagnitude-arCoeff3:**
 * **TimeBodyGyroJerkMagnitude-arCoeff4:**
 * **TimeBodyGyroJerkMean-X:**
+
+   *Numeric* value that specifies the mean of the total body jerk gyroscope readings for the X axis, in m/s.
+
+
 * **TimeBodyGyroJerkMean-Y:**
+
+   *Numeric* value that specifies the mean of the total body jerk gyroscope readings for the Y axis, in m/s.
+
+
 * **TimeBodyGyroJerkMean-Z:**
+
+   *Numeric* value that specifies the mean of the total body jerk gyroscope readings for the Z axis, in m/s.
+
+
 * **TimeBodyGyroMagnitude-arCoeff3:**
 * **TimeBodyGyroMagnitude-arCoeff4:**
 * **TimeBodyGyroMean-X:**
+
+   *Numeric* value that specifies the mean of the total body gyroscope readings for the X axis, in m/s.
+
+
 * **TimeBodyGyroMean-Y:**
+
+   *Numeric* value that specifies the mean of the total body gyroscope readings for the Y axis, in m/s.
+
+
 * **TimeBodyGyroMean-Z:**
+
+   *Numeric* value that specifies the mean of the total body gyroscope readings for the Z axis, in m/s.
+
+
 * **TimeGravityAcceleration-correlation-X,Z:**
 * **TimeGravityAcceleration-correlation-Y,Z:**
 * **TimeGravityAcceleration-std-X:**
 * **TimeGravityAccelerationMag-arCoeff3:**
 * **TimeGravityAccelerationMag-arCoeff4:**
 * **TimeGravityAccelerationMean-X:**
+
+   *Numeric* value that specifies the mean of the total gravity acceleration readings for the X axis, in m/s.
+
+
 * **TimeGravityAccelerationMean-Y:**
+
+   *Numeric* value that specifies the mean of the total gravity acceleration readings for the X axis, in m/s.
+
+
+
 * **TimeGravityAccelerationMean-Z:**
+
+   *Numeric* value that specifies the mean of the total gravity acceleration readings for the X axis, in m/s.
+
