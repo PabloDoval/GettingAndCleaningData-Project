@@ -30,9 +30,9 @@ From the data set in step 4, create a second, independent tidy data set with the
 In order to use the provided script (`run_Analysis.R`), the following prerequisites must be made:
 
 * R version 3.1.2 must be used (lower versions might work, but have not been tested)
-* Package "Dplyr" must be installed on the R machine.
+* Package "dplyr" must be installed on the R machine.
 * The UCI HAR data set must have been downloaded, since the script does not automate the download process (due to the big size of this dataset).
-* R working derectory must be set pointed to the directory where the UCI HAR data has been uncompressed.
+* R working directory must be set pointed to the directory where the UCI HAR data has been uncompressed.
 
 Once all those prerequisites are met, the script can be run in one go, and it will generate an output with the name `summarizedData.txt` in R's working directory, containing the activity data in form of aggregated means for each subject and each activity type.
 
